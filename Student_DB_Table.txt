@@ -1,0 +1,25 @@
+USE [German_College]
+GO
+
+/****** Object:  Table [dbo].[Student]    Script Date: 2/10/2019 7:13:27 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Student](
+	[Id] [int] NOT NULL,
+	[FirstName] [nvarchar](50) NOT NULL,
+	[LastName] [nvarchar](50) NOT NULL,
+	[Gender] [nvarchar](10) NOT NULL,
+	[Country] [nvarchar](30) NOT NULL,
+	[City] [nvarchar](30) NOT NULL,
+ CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+

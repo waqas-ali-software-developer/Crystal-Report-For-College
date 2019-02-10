@@ -1,0 +1,6 @@
+E:\test_assignment\MVP\Crytal_Report\College\obj\Debug\College.csprojResolveAssemblyReference.cache
+E:\test_assignment\MVP\Crytal_Report\College\bin\College.dll.config
+E:\test_assignment\MVP\Crytal_Report\College\bin\College.dll
+E:\test_assignment\MVP\Crytal_Report\College\bin\College.pdb
+E:\test_assignment\MVP\Crytal_Report\College\obj\Debug\College.dll
+E:\test_assignment\MVP\Crytal_Report\College\obj\Debug\College.pdb
